@@ -1,0 +1,37 @@
+#board {
+  padding: 3em;
+  text-align: center;
+}
+.row > div {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.row {
+  clear: all;
+  margin: auto;
+  width: 302px;
+}
+
+.top {
+  border-bottom: 1px solid hotpink;
+}
+
+.bottom {
+  border-top: 1px solid hotpink;
+}
+
+.left {
+  border-right: 1px solid hotpink;
+}
+
+.right {
+  border-left: 1px solid hotpink;
+}
+
+.top:hover,
+.middle:hover,
+.bottom:hover {
+  cursor: pointer;
+}
