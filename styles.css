@@ -1,37 +1,59 @@
-#board {
-  padding: 3em;
-  text-align: center;
+body, html{
+ height: 100%; 
 }
+
+.background {
+  height: 100%;
+  position: absolute;
+  background-color: aqua;
+}
+#board {
+  padding: 10em;
+  text-align: center;
+  border: 3px solid green;
+  margin: 50px;
+  color: black;
+  z-index: -1em;
+ }
+
 .row > div {
-  float: left;
-  height: 100px;
-  width: 100px;
+float: left;
+height: 100px;
+width: 100px;
 }
 
 .row {
-  clear: all;
-  margin: auto;
-  width: 302px;
+clear: both;
+margin: auto;
+width: 302px;
+text-align: center;
+
 }
 
 .top {
-  border-bottom: 1px solid hotpink;
+border-bottom: 1px solid hotpink;
 }
 
 .bottom {
-  border-top: 1px solid hotpink;
+border-top: 1px solid hotpink;
 }
 
 .left {
-  border-right: 1px solid hotpink;
+border-right: 1px solid hotpink;
+
 }
 
 .right {
-  border-left: 1px solid hotpink;
+border-left: 1px solid hotpink;
 }
 
 .top:hover,
 .middle:hover,
 .bottom:hover {
-  cursor: pointer;
+cursor: pointer;
+}
+#winningSection {
+margin: 50px;
+padding: 50px;
+color: lemonchiffon
 }
